@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Navbar{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background: rgba(28, 32, 40, 1);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* LOGO */
+
+#Logo{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+#Logo h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-icon img{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+/* NAV LINKS */
+
+#Nav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+#Nav ul li a{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#Nav ul li a:hover{
+    color: #ff8c32;
+}
+
+/* RIGHT SIDE */
+/* I'm A little dyslexic so I'll just leave this as LeftNav */
+#LeftNav{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* SEARCH */
+
+#SearchBar{
+    width: 260px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    background: #2a2f38;
+    border-radius: 999px;
+    color: #9ca3af;
+}
+
+#SearchBar input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+#SearchBar input::placeholder{
+    color: #9ca3af;
+}
+
+/* LOGIN ICON */
+
+#Login{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #2a2f38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Login:hover{
+    background: #353b46;
+}
+
+#ContactUs{
+    border: none;
+    outline: none;
+    padding: 11px 18px;
+    border-radius: 10px;
+    background: #d97706;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ContactUs:hover{
+    background: #ea860d;
+}
