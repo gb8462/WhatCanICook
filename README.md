@@ -1,70 +1,16 @@
-# 🍳 WhatCanICook
+# React + Vite
 
-**WhatCanICook** is a cooking recipe web application that helps users discover meals based on the ingredients they already have at home. The goal is to reduce food waste, save money, and make cooking more convenient and enjoyable.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### 🥕 Ingredient-Based Recipe Recommendation
+## React Compiler
 
-Enter the ingredients you have, and the app will suggest recipes you can cook instantly no need for extra grocery trips.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### 🎥 YouTube Video Integration
+## Expanding the ESLint configuration
 
-Watch step-by-step cooking tutorials directly inside the app through embedded YouTube videos, making it easier to follow recipes.
-
-### 🔍 Recipe Search
-
-Browse and explore a variety of recipes from different cuisines and categories.
-
-### 🧠 Smart Cooking Experience
-
-Designed to help users make quick decisions on what to cook using available resources.
-
----
-
-## 🛠️ Tech Stack
-
-* Frontend: (React / HTML / CSS / JavaScript)
-* Backend: (Node.js / Firebase)
-* API: TheMealDB API
-
----
-
-## 🎯 Purpose
-
-This project is built to:
-
-* Reduce food waste
-* Help users save time and money
-* Encourage creativity in cooking
-* Provide an easy and interactive cooking experience
-
----
-
-## 📌 Future Improvements
-
-* Nutritional value tracking (calories, protein, etc.)
-* Advanced filtering (diet, preferences)
-* Recipe comparison feature
-* User accounts and saved recipes
-
----
-
-## 📷 Preview
-
-*(Not Available)*
-
----
-
-## 📄 License
-
-This project is for educational and personal use.
-
----
-
-## 🙌 Acknowledgements
-
-* Recipe data provided by TheMealDB API
-* Video content from YouTube
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
